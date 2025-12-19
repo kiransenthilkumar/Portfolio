@@ -828,7 +828,7 @@ noscript {
 .cta:hover span,
 .text,
 .tooltip {
-    color: #fff
+    color: #ffffff
 }
 
 .resume-btn,
@@ -1126,6 +1126,7 @@ noscript {
 
 .tooltip {
     position: absolute;
+    color: var(--color-white);
     top: -20px;
     opacity: 0;
     background: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
